@@ -1,16 +1,30 @@
-import React from 'react';
+import React from "react";
+
+import profilePicture from "../../images/profile-picture.jpg";
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
+      <h4>Hello there!</h4>
+      <img
+        // id="profile-picture"
+        class="img-thumbnail"
+        src={profilePicture}
+        alt="Profile"
+      />
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        My name is Jordan and I am a front-end web developer! I have always
+        liked creating things and web development helps me accomplish that. This
+        porfolio page showcases some of those projects.
+      </p>
+      <p>
+        Known as a creative thinker with a passion for creating web apps, with a
+        responsive, mobile first approach. With having over 2 years of working
+        experience in the IT industry, troubleshooting complex computer and
+        application issues, this will help me thoroughly solve problems that
+        arise during web development. I am excited to continue using the skills
+        learned to build quality web apps with a great design.
       </p>
     </div>
   );
