@@ -46,10 +46,7 @@ export default function Porfolio() {
             </a>
           </div>
           <a href="https://nameless-hamlet-43462.herokuapp.com/">
-            <img
-              src="Assets/images/Project2Screenshot.png"
-              alt="Project 2 Screenshot"
-            />
+            <img src={project2} alt="Project 2 Screenshot" />
           </a>
         </div>
         <div class="work-card">
@@ -70,10 +67,7 @@ export default function Porfolio() {
           </div>
 
           <a href="https://radiant-basin-61190.herokuapp.com/">
-            <img
-              src="./Assets/images/Project3Screenshot.png"
-              alt="Tech Blog Project"
-            />
+            <img src={project3} alt="Tech Blog Project" />
           </a>
         </div>
         <div class="work-card">
@@ -90,10 +84,7 @@ export default function Porfolio() {
             </a>
           </div>
           <a href="https://jordanb366.github.io/the-best-weather-dashboard/">
-            <img
-              src="./Assets/images/Project4Screenshot.png"
-              alt="Weather Dashboard Project"
-            />
+            <img src={project4} alt="Weather Dashboard Project" />
           </a>
         </div>
         <div class="work-card">
@@ -110,10 +101,7 @@ export default function Porfolio() {
             </a>
           </div>
           <a href="https://jordanb366.github.io/css-snippets/">
-            <img
-              src="./Assets/images/Project5Screenshot.png"
-              alt="CSS Snippets Project"
-            />
+            <img src={project5} alt="CSS Snippets Project" />
           </a>
         </div>
       </div>
