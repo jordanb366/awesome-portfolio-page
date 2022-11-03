@@ -1,13 +1,20 @@
 {
   "files": {
     "main.css": "/awesome-portfolio-page/static/css/main.c59cc657.css",
-    "main.js": "/awesome-portfolio-page/static/js/main.ca164462.js",
+    "main.js": "/awesome-portfolio-page/static/js/main.9d4db450.js",
+    "static/media/profile-picture.jpg": "/awesome-portfolio-page/static/media/profile-picture.0e0f1e996c9568e87273.jpg",
+    "static/media/Project1Screenshot.png": "/awesome-portfolio-page/static/media/Project1Screenshot.280deac2478bbe770b8f.png",
+    "static/media/Project5Screenshot.png": "/awesome-portfolio-page/static/media/Project5Screenshot.b120120b1960f1c46b92.png",
+    "static/media/Project3Screenshot.png": "/awesome-portfolio-page/static/media/Project3Screenshot.d48f1871ac1c070fbd24.png",
+    "static/media/Project4Screenshot.png": "/awesome-portfolio-page/static/media/Project4Screenshot.bb7cfdd7c015c7fe52a9.png",
+    "static/media/Project2Screenshot.png": "/awesome-portfolio-page/static/media/Project2Screenshot.d21fdae89c5f54d9cbaf.png",
+    "static/media/Bradley_Jordan_Resume.docx": "/awesome-portfolio-page/static/media/Bradley_Jordan_Resume.1e1eddaa98ba5188d2d2.docx",
     "index.html": "/awesome-portfolio-page/index.html",
     "main.c59cc657.css.map": "/awesome-portfolio-page/static/css/main.c59cc657.css.map",
-    "main.ca164462.js.map": "/awesome-portfolio-page/static/js/main.ca164462.js.map"
+    "main.9d4db450.js.map": "/awesome-portfolio-page/static/js/main.9d4db450.js.map"
   },
   "entrypoints": [
     "static/css/main.c59cc657.css",
-    "static/js/main.ca164462.js"
+    "static/js/main.9d4db450.js"
   ]
 }
