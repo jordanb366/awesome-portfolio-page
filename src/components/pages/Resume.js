@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer";
 import myResume from "../../resume/Bradley_Jordan_Resume.docx";
 
 export default function Resume() {
@@ -23,6 +24,7 @@ export default function Resume() {
           <li>MERN</li>
         </ul>
       </div>
+      <Footer />
     </div>
   );
 }

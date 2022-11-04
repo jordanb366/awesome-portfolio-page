@@ -1,5 +1,5 @@
 import React from "react";
-
+import Footer from "../Footer";
 import profilePicture from "../../images/profile-picture.jpg";
 
 export default function About() {
@@ -26,6 +26,7 @@ export default function About() {
         arise during web development. I am excited to continue using the skills
         learned to build quality web apps with a great design.
       </p>
+      <Footer />
     </div>
   );
 }

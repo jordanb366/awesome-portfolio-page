@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer";
 import project1 from "../../images/Project1Screenshot.png";
 import project2 from "../../images/Project2Screenshot.png";
 import project3 from "../../images/Project3Screenshot.png";
@@ -105,6 +106,7 @@ export default function Porfolio() {
           </a>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
