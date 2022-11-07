@@ -5,7 +5,7 @@ export default function Contact() {
     <div>
       <div className="container">
         <h1>Contact Me</h1>
-        <form className="form-group col-6">
+        <form className="form-group col-sm-12 col-md-8 col-lg-6">
           <div className="form-group">
             <label for="exampleFormControlInput1">Name:</label>
             <input

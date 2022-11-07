@@ -7,8 +7,10 @@ export default function Resume() {
     <div>
       <div className="container">
         <h1>Resume</h1>
-        <a href={myResume}>Download Resume</a>
-        <div id="skills">
+        <a className="pt-2" href={myResume}>
+          Download Resume
+        </a>
+        <div className="pt-2" id="skills">
           <h5>Technical Skills:</h5>
           <ul>
             <li>Git commands</li>
