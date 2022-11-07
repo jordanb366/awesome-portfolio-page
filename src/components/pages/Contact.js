@@ -2,9 +2,9 @@ import React from "react";
 import Footer from "../Footer";
 export default function Contact() {
   return (
-    <div>
+    <div className="container">
       <h1>Contact Page</h1>
-      <form className="form-group">
+      <form className="form-group col-6">
         <div className="form-group">
           <label for="exampleFormControlInput1">Name:</label>
           <input

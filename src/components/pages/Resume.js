@@ -4,7 +4,7 @@ import myResume from "../../resume/Bradley_Jordan_Resume.docx";
 
 export default function Resume() {
   return (
-    <div>
+    <div className="container">
       <h1>Resume</h1>
       <a href={myResume}>Download Resume</a>
       <div id="skills">

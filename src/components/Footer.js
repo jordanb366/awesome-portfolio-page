@@ -3,24 +3,28 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <div class="contact-me-links">
-        <ul>
-          <li>
-            <p>
-              Email:
-              <a href="mailto:jordan.b3360@gmail.com">jordan.b3360@gmail.com</a>
-            </p>
-          </li>
-          <li>
+      <footer className="">
+        <ul
+          style={{ listStyle: "none" }}
+          className="d-flex justify-content-center"
+        >
+          <li className="m-2 p-2">
             <a href="https://github.com/jordanb366">Github</a>
           </li>
-          <li>
+          <li className="m-2 p-2">
             <a href="https://www.linkedin.com/in/jordan-bradley-6a806a165/">
               LinkedIn
             </a>
           </li>
+          <li className="m-2 p-2">
+            <p>
+              <a href="https://stackoverflow.com/users/19164313/jordanb336">
+                Stack Overflow
+              </a>
+            </p>
+          </li>
         </ul>
-      </div>
+      </footer>
     </div>
   );
 }
