@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
 nav {
   background-color: #98d2eb;
 }
@@ -6,7 +11,26 @@ nav {
 }
 div {
   background-color: #e1f2fe;
+  clear: both;
+  overflow: auto;
+  padding-bottom: 20px;
 }
 footer {
+  margin-top: 100px;
+  clear: both;
+  overflow: auto;
   background-color: #77625c;
+  position: absolute;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: black;
 }

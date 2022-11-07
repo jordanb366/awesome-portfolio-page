@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <footer className="navbar fixed-bottom">
+      <footer className="">
         <ul
           // style={{ listStyle: "none" }}
           className="d-flex justify-content-center ul-footer"
