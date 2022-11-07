@@ -12,7 +12,7 @@ export default function Porfolio() {
       <div className="container">
         <h1>Projects</h1>
         <p></p>
-        <div className="row">
+        <div className="row justify-content-center">
           <div className="card col-sm-12 col-md-8 col-lg-3 m-2">
             <a href="https://piertwo.github.io/unburied-museum-cataloger/">
               <img
@@ -21,15 +21,23 @@ export default function Porfolio() {
                 alt="Project 1 Screenshot"
               />
             </a>
-            <div class="work-card-information">
-              <h4>Unburied: A Museum Cataloger</h4>
-              <p>HTML, CSS, JavaScript, jQuery, Materialize CSS</p>
+            <div className="card-body">
+              <h4 className="card-title">Unburied: A Museum Cataloger</h4>
+              <p className="card-text">
+                HTML, CSS, JavaScript, jQuery, Materialize CSS
+              </p>
               <br />
               <h5>Links:</h5>
-              <a href="https://piertwo.github.io/unburied-museum-cataloger/">
+              <a
+                className="card-link"
+                href="https://piertwo.github.io/unburied-museum-cataloger/"
+              >
                 Github Repository
               </a>
-              <a href="https://piertwo.github.io/unburied-museum-cataloger/">
+              <a
+                className="card-link"
+                href="https://piertwo.github.io/unburied-museum-cataloger/"
+              >
                 Deployed Link
               </a>
             </div>
@@ -42,18 +50,24 @@ export default function Porfolio() {
                 alt="Project 2 Screenshot"
               />
             </a>
-            <div class="work-card-information">
-              <h4>Memorize: A Flashcard Creation App</h4>
-              <p>
+            <div className="card-body">
+              <h4 className="card-title">Memorize: A Flashcard Creation App</h4>
+              <p className="card-text">
                 HTML, CSS, JavaScript, NodeJS, ExpressJS, MySQL, Sequelize,
                 Express HandleBars, Bulma CSS, and Sessions
               </p>
               <br />
               <h5>Links:</h5>
-              <a href="https://github.com/nhastings1/project-2-flashdata">
+              <a
+                className="card-link"
+                href="https://github.com/nhastings1/project-2-flashdata"
+              >
                 Github Repository
               </a>
-              <a href="https://nameless-hamlet-43462.herokuapp.com/">
+              <a
+                className="card-link"
+                href="https://nameless-hamlet-43462.herokuapp.com/"
+              >
                 Deployed Link
               </a>
             </div>
@@ -66,18 +80,24 @@ export default function Porfolio() {
                 alt="Tech Blog Project"
               />
             </a>
-            <div class="work-card-information">
-              <h4>Tech Blog - Full Stack App</h4>
-              <p>
+            <div className="card-body">
+              <h4 className="card-title">Tech Blog - Full Stack App</h4>
+              <p className="card-text">
                 HTML, CSS, JavaScript, NodeJS, ExpressJS, MySQL, Sequelize,
                 Express HandleBars, Bootstrap CSS and Sessions
               </p>
               <br />
               <h5>Links:</h5>
-              <a href="https://github.com/jordanb366/mvc-tech-blog-app">
+              <a
+                className="card-link"
+                href="https://github.com/jordanb366/mvc-tech-blog-app"
+              >
                 Github Repository
               </a>
-              <a href="https://radiant-basin-61190.herokuapp.com/">
+              <a
+                className="card-link"
+                href="https://radiant-basin-61190.herokuapp.com/"
+              >
                 Deployed Link
               </a>
             </div>
@@ -90,15 +110,23 @@ export default function Porfolio() {
                 alt="Weather Dashboard Project"
               />
             </a>
-            <div class="work-card-information">
-              <h4>Weather Dashboard - with OpenWeather API</h4>
-              <p>HTML, CSS, JavaScript</p>
+            <div className="card-body">
+              <h4 className="card-title">
+                Weather Dashboard - with OpenWeather API
+              </h4>
+              <p className="card-text">HTML, CSS, JavaScript</p>
               <br />
               <h5>Links:</h5>
-              <a href="https://github.com/jordanb366/the-best-weather-dashboard">
+              <a
+                className="card-link"
+                href="https://github.com/jordanb366/the-best-weather-dashboard"
+              >
                 Github Repository
               </a>
-              <a href="https://jordanb366.github.io/the-best-weather-dashboard/">
+              <a
+                className="card-link"
+                href="https://jordanb366.github.io/the-best-weather-dashboard/"
+              >
                 Deployed Link
               </a>
             </div>
@@ -111,15 +139,21 @@ export default function Porfolio() {
                 alt="CSS Snippets Project"
               />
             </a>
-            <div class="work-card-information">
-              <h4>CSS Snippets - FlexBox</h4>
-              <p>HTML, CSS</p>
+            <div className="card-body">
+              <h4 className="card-title">CSS Snippets - FlexBox</h4>
+              <p className="card-text">HTML, CSS</p>
               <br />
               <h5>Links:</h5>
-              <a href="https://github.com/jordanb366/css-snippets">
+              <a
+                className="card-link"
+                href="https://github.com/jordanb366/css-snippets"
+              >
                 Github Repository
               </a>
-              <a href="https://jordanb366.github.io/css-snippets/">
+              <a
+                className="card-link"
+                href="https://jordanb366.github.io/css-snippets/"
+              >
                 Deployed Link
               </a>
             </div>

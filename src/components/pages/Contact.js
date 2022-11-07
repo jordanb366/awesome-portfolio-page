@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div>
       <div className="container">
-        <h1>Contact Page</h1>
+        <h1>Contact Me</h1>
         <form className="form-group col-6">
           <div className="form-group">
             <label for="exampleFormControlInput1">Name:</label>
@@ -13,23 +13,26 @@ export default function Contact() {
               class="form-control"
               id="exampleFormControlInput1"
               placeholder="name"
+              required
             ></input>
           </div>
           <div className="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+            <label for="exampleFormControlInput1">Email address:</label>
             <input
               type="email"
               class="form-control"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
+              required
             ></input>
           </div>
           <div className="form-group">
-            <label for="exampleFormControlTextarea1">Description</label>
+            <label for="exampleFormControlTextarea1">Message:</label>
             <textarea
               className="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
+              required
             ></textarea>
           </div>
           <button className="btn btn-dark">Submit</button>

@@ -4,7 +4,7 @@ function Header({ currentPage, handlePageChange }) {
   return (
     <nav className="">
       <ul className="nav nav-tabs pt-4">
-        <li className="p-2">
+        <li className="m-2 p-1">
           <h3>Jordan Bradley</h3>
         </li>
         <li className="nav-item">

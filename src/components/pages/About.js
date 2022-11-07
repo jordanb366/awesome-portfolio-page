@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../Footer";
-import profilePicture from "../../images/profile-picture.jpg";
+import profilePicture from "../../images/avatar.png";
 
 export default function About() {
   return (
