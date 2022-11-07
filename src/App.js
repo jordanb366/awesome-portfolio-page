@@ -1,6 +1,6 @@
 import React from "react";
-import Navigation from "./components/Navigation";
+import Header from "./components/Header";
 
-const App = () => <Navigation />;
+const App = () => <Header />;
 
 export default App;

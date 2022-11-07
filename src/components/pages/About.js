@@ -9,7 +9,11 @@ export default function About() {
         <h1>About Me</h1>
 
         <h4>Hello there!</h4>
-        <img class="img-thumbnail pt-2" src={profilePicture} alt="Profile" />
+        <img
+          className="img-thumbnail pt-2"
+          src={profilePicture}
+          alt="Profile"
+        />
         <div className="row">
           <p className="col-sm-12 col-md-8 col-lg-8 pt-4">
             My name is Jordan and I am a front-end web developer! I have always
