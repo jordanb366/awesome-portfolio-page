@@ -38,6 +38,8 @@ export default function Contact() {
           </div>
           <button className="btn btn-dark">Submit</button>
         </form>
+        <h2 className="pt-4">Or...</h2>
+        <a href="mailto:jordan.b3660@email.com">Email me directly!</a>
       </div>
       <Footer />
     </div>

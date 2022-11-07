@@ -1,5 +1,7 @@
 import React from "react";
+// Imports
 import Footer from "../Footer";
+// Avatar
 import profilePicture from "../../images/avatar.png";
 // About me section
 export default function About() {

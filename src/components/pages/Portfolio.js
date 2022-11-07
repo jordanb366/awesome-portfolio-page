@@ -1,14 +1,17 @@
 import React from "react";
 import Project from "../Project";
+// Imports
 import project1 from "../../images/Project1Screenshot.png";
 import project2 from "../../images/Project2Screenshot.png";
 import project3 from "../../images/Project3Screenshot.png";
 import project4 from "../../images/Project4Screenshot.png";
 import project5 from "../../images/Project5Screenshot.png";
+import project6 from "../../images/Project6Screenshot.png";
 
 // Portfolio section
 export default function Portfolio() {
   // Project information in the array
+  // Contains id for, deployed project, screenshot, title, technologies used, and respoitory link
   const projects = [
     {
       id: 1,
@@ -53,6 +56,14 @@ export default function Portfolio() {
       title: "Unburied: A Museum Cataloger",
       technologies: "HTML, CSS, JavaScript, jQuery, Materialize CSS",
       repositoryLink: "https://github.com/jordanb366/css-snippets",
+    },
+    {
+      id: 6,
+      deployedProject: "https://jordanb366.github.io/my-portfolio-website/",
+      projectScreenshot: project6,
+      title: "HTML/CSS Portfolio",
+      technologies: "HTML, CSS",
+      repositoryLink: "https://github.com/jordanb366/my-portfolio-website",
     },
   ];
   // passes props projects to be reused for the portfolio

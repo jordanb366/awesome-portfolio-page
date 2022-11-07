@@ -1,7 +1,10 @@
 import React from "react";
+// Imports
 import Footer from "../Footer";
+// Resume
 import myResume from "../../resume/Bradley_Jordan_Resume.docx";
 
+// Resume section
 export default function Resume() {
   return (
     <div>
@@ -28,6 +31,7 @@ export default function Resume() {
           </ul>
         </div>
       </div>
+      {/* Renders footer */}
       <Footer />
     </div>
   );
