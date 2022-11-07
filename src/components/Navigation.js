@@ -24,7 +24,7 @@ function Navigation({ currentPage, handlePageChange }) {
               currentPage === "Portfolio" ? "nav-link active" : "nav-link"
             }
           >
-            Porfolio
+            Portfolio
           </a>
         </li>
         <li className="nav-item">
