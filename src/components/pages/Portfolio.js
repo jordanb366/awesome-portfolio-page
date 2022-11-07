@@ -1,13 +1,14 @@
 import React from "react";
 import Project from "../Project";
-
 import project1 from "../../images/Project1Screenshot.png";
 import project2 from "../../images/Project2Screenshot.png";
 import project3 from "../../images/Project3Screenshot.png";
 import project4 from "../../images/Project4Screenshot.png";
 import project5 from "../../images/Project5Screenshot.png";
 
+// Portfolio section
 export default function Portfolio() {
+  // Project information in the array
   const projects = [
     {
       id: 1,
@@ -54,5 +55,6 @@ export default function Portfolio() {
       repositoryLink: "https://github.com/jordanb366/css-snippets",
     },
   ];
+  // passes props projects to be reused for the portfolio
   return <Project projects={projects} />;
 }

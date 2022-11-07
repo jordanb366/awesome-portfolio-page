@@ -1,5 +1,5 @@
 import React from "react";
-
+// Renders all the Navigation
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav className="">

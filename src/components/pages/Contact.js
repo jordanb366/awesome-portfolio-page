@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Footer";
+// Contact section
 export default function Contact() {
   return (
     <div>

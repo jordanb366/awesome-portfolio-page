@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../Footer";
 import profilePicture from "../../images/avatar.png";
-
+// About me section
 export default function About() {
   return (
     <div>
@@ -31,6 +31,7 @@ export default function About() {
           </p>
         </div>
       </div>
+      {/* Renders footer component */}
       <Footer />
     </div>
   );

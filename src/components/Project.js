@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-
+// Project component calling props with the array to data for the portfolio
 export default function Project(props) {
   console.log(props);
   return (
@@ -8,8 +8,7 @@ export default function Project(props) {
       <div className="container">
         <h1>Projects</h1>
         <div className="row justify-content-center">
-          {/* Here we map over each grocery item and return a new array of `li` elements that contains the grocery name */}
-          {/* When using map you must provide a unique key attribute to each item. Ours is `item.id` */}
+          {/* Maps over the projects array so it can be re-used for all projects */}
           {props.projects.map((project) => (
             <div
               key={project.id}
@@ -38,6 +37,7 @@ export default function Project(props) {
           ))}
         </div>
       </div>
+      {/* Renders footer */}
       <Footer />
     </div>
   );
