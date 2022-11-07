@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "../Project";
-// Imports
+// Imports and images for Portfolio section
 import project1 from "../../images/Project1Screenshot.png";
 import project2 from "../../images/Project2Screenshot.png";
 import project3 from "../../images/Project3Screenshot.png";
