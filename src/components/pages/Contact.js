@@ -24,6 +24,7 @@ export default function Contact() {
               class="form-control"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
+              pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
               required
             ></input>
           </div>
