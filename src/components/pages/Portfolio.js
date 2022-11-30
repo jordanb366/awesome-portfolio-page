@@ -20,7 +20,7 @@ export default function Portfolio() {
       projectScreenshot: project1,
       title: "Unburied: A Museum Cataloger",
       technologies: "HTML, CSS, JavaScript, jQuery, Materialize CSS",
-      repositoryLink: "https://piertwo.github.io/unburied-museum-cataloger/",
+      repositoryLink: "https://github.com/PierTwo/unburied-museum-cataloger",
     },
     {
       id: 2,
