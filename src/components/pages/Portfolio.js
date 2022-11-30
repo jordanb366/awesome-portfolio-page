@@ -7,6 +7,7 @@ import project3 from "../../images/Project3Screenshot.png";
 import project4 from "../../images/Project4Screenshot.png";
 import project5 from "../../images/Project5Screenshot.png";
 import project6 from "../../images/Project6Screenshot.png";
+import project7 from "../../images/Project7Screenshot.png";
 
 // Portfolio section
 export default function Portfolio() {
@@ -32,6 +33,15 @@ export default function Portfolio() {
     },
     {
       id: 3,
+      deployedProject: "https://lit-bayou-05963.herokuapp.com/",
+      projectScreenshot: project7,
+      title: "HTML For Beginners",
+      technologies:
+        "MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Mongoose, JWT, HTML, CSS, TailWindCSS",
+      repositoryLink: "https://github.com/PierTwo/HTML-For-Beginners",
+    },
+    {
+      id: 4,
       deployedProject: "https://radiant-basin-61190.herokuapp.com/",
       projectScreenshot: project3,
       title: "Tech Blog - Full Stack App",
@@ -40,7 +50,7 @@ export default function Portfolio() {
       repositoryLink: "https://github.com/jordanb366/mvc-tech-blog-app",
     },
     {
-      id: 4,
+      id: 5,
       deployedProject:
         "https://jordanb366.github.io/the-best-weather-dashboard/",
       projectScreenshot: project4,
@@ -50,7 +60,7 @@ export default function Portfolio() {
         "https://github.com/jordanb366/the-best-weather-dashboard",
     },
     {
-      id: 5,
+      id: 6,
       deployedProject: "https://jordanb366.github.io/css-snippets/",
       projectScreenshot: project5,
       title: "Unburied: A Museum Cataloger",
@@ -58,7 +68,7 @@ export default function Portfolio() {
       repositoryLink: "https://github.com/jordanb366/css-snippets",
     },
     {
-      id: 6,
+      id: 7,
       deployedProject: "https://jordanb366.github.io/my-portfolio-website/",
       projectScreenshot: project6,
       title: "HTML/CSS Portfolio",
